@@ -1,0 +1,26 @@
+.container{
+    max-width: 800px;
+    margin: 0px auto;
+}
+.tabs__items{
+    display: flex;
+}
+.active{
+    display: block;
+}
+.tab, .tab__info{
+    background: #e5e5e5;
+    border: 1px solid #a5a2a2;
+    p{
+        padding: 0 20px;
+    }
+}
+.tab{
+    cursor: pointer;
+}
+.selected{
+    background: #eee;
+}
+.not-active{
+    display: none;
+}
